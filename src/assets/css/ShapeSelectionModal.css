@@ -1,0 +1,41 @@
+/* ShapeSelectionModal.css */
+
+.shape-modal-overlay { 
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.shape-modal-content {
+  background: #81b29a;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.shape-modal-content button {
+  font-family: "yeongdeok";
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #e07a5f;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.shape-modal-content button:hover {
+  background: #e4623e;
+}
+
+.shape-selection {
+  font-family: "yeongdeok";
+  color : white;
+}
